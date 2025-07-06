@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<link rel="shortcut icon" type "image/x-icon" href="/favicon.ico?">
+		<link rel="stylesheet" href="games_styles.css" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>David Inman</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>David Inman</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="games.html">Games</a></li>
+					<li><a href="writings.html">Writings</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div class="game">
+				<canvas id="myCanvas" width="480" height="320"></canvas>
+				<script type="module" src="main.js" defer></script>
+			</div>
+
+			<div class="description">
+				<h2>Hamiltonian Path Game</h2>
+
+				<p>My first game! The goal here is to connect both circles with a single line that goes through every cell.
+					Currently, it's not guaranteed that each grid is winnable, but you can reload the page to generate a new puzzle.
+					We're using HTML's <code>Canvas</code> tag to render the grid, then redrawing the <code>Canvas</code> each frame.	
+
+				</p>
+			</div>
+		</main>
+
+	</body>
+</html>

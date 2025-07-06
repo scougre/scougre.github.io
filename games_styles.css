@@ -1,0 +1,62 @@
+* {
+	background-color: #722f37; /*Wine*/
+	color: #8dd0c8; /*Inversion of Wine*/
+	font-family: Verdana, Arial, sans-serif;
+	border: 0;
+}
+
+body {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
+nav {
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 10px;
+}
+
+nav li {
+	flex: 1;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 30px;
+}
+.game {
+	flex: 1;
+}
+.description {
+	flex: 1;
+}
+canvas {
+	display: block;
+}
+
+p {
+	text-indent: 2em;
+	text-align: left;
+}
+h2 {
+	text-align: left;
+}
+
