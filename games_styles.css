@@ -50,6 +50,7 @@ main {
 }
 canvas {
 	display: block;
+	touch-action: none;
 }
 
 p {
