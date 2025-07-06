@@ -44,6 +44,7 @@ main {
 }
 .game {
 	flex: 1;
+	touch-action: none;
 }
 .description {
 	flex: 1;
